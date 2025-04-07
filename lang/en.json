@@ -1,0 +1,54 @@
+{
+    "nav.home": "Home",
+    "nav.about": "What We Do",
+    "nav.services": "Solutions",
+    "nav.contact": "Contact",
+  
+    "hero.title1": "Unlock",
+    "hero.title2": "The Magic of Technology",
+    "hero.subtitle": "We turn innovation into reality with powerful and intuitive tech solutions. Experience the magic of technology with WizardSolutions!",
+    "hero.button": "Explore our solutions",
+  
+    "about.title": "Technology with a Magical Touch",
+    "about.card_one_title": "Custom Software",
+    "about.card_one_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+    "about.card_two_title": "Integrations",
+    "about.card_two_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+    "about.card_three_title": "Automations",
+    "about.card_three_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+  
+    "solutions.title": "Solutions",
+    "solutions.card_one_text": "Automate conversations, boost sales, and keep customers satisfied with our advanced AI chatbot, built for businesses.",
+    "solutions.card_one_title": "Wizzy Assistant",
+    "solutions.card_one_description": "Automate conversations, increase sales, and improve customer satisfaction with our advanced business AI chatbot.",
+    "solutions.card_one_pointone": "Full customization",
+    "solutions.card_one_pointtwo": "Dynamic responses",
+    "solutions.card_one_pointthree": "Fast integration",
+    "solutions.card_one_button": "See solution",
+  
+    "solutions.card_two_text": "Automate conversations, boost sales, and keep customers satisfied with our advanced AI chatbot, built for businesses.",
+    "solutions.card_two_title": "Wizzy Assistant",
+    "solutions.card_two_description": "Automate conversations, increase sales, and improve customer satisfaction with our advanced business AI chatbot.",
+    "solutions.card_two_pointone": "Full customization",
+    "solutions.card_two_pointtwo": "Dynamic responses",
+    "solutions.card_two_pointthree": "Fast integration",
+    "solutions.card_two_button": "See solution",
+  
+    "footer.lang_label": "Language",
+    "footer.social_label": "Social",
+  
+    "footer.column_one_title": "Products",
+    "footer.column_one_item_one": "Wizzy",
+  
+    "footer.column_two_title": "Company",
+    "footer.column_two_item_one": "About",
+    "footer.column_two_item_two": "Mission",
+    "footer.column_two_item_three": "Brand",
+  
+    "footer.column_three_title": "Policy",
+    "footer.column_three_item_one": "Terms",
+    "footer.column_three_item_two": "Privacy",
+    "footer.column_three_item_three": "Guidelines",
+    "footer.column_three_item_four": "Licenses",
+    "footer.column_three_item_five": "Company Info"
+}  

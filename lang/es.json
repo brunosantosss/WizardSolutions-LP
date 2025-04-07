@@ -1,0 +1,54 @@
+{
+    "nav.home": "Inicio",
+    "nav.about": "Qué Hacemos",
+    "nav.services": "Soluciones",
+    "nav.contact": "Contacto",
+  
+    "hero.title1": "Desbloquea",
+    "hero.title2": "La Magia de la Tecnología",
+    "hero.subtitle": "Convertimos la innovación en realidad con soluciones tecnológicas potentes e intuitivas. ¡Experimenta la magia de la tecnología con WizardSolutions!",
+    "hero.button": "Conoce nuestras soluciones",
+  
+    "about.title": "Tecnología con un Toque Mágico",
+    "about.card_one_title": "Software a Medida",
+    "about.card_one_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+    "about.card_two_title": "Integraciones",
+    "about.card_two_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+    "about.card_three_title": "Automatizaciones",
+    "about.card_three_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+  
+    "solutions.title": "Soluciones",
+    "solutions.card_one_text": "Automatiza conversaciones, aumenta ventas y mantiene a los clientes satisfechos con nuestro chatbot de IA avanzado, diseñado para empresas.",
+    "solutions.card_one_title": "Asistente Wizzy",
+    "solutions.card_one_description": "Automatiza conversaciones, incrementa ventas y mejora la satisfacción del cliente con nuestro avanzado chatbot de IA para empresas.",
+    "solutions.card_one_pointone": "Personalización total",
+    "solutions.card_one_pointtwo": "Respuestas dinámicas",
+    "solutions.card_one_pointthree": "Integración rápida",
+    "solutions.card_one_button": "Ver solución",
+  
+    "solutions.card_two_text": "Automatiza conversaciones, aumenta ventas y mantiene a los clientes satisfechos con nuestro chatbot de IA avanzado, diseñado para empresas.",
+    "solutions.card_two_title": "Asistente Wizzy",
+    "solutions.card_two_description": "Automatiza conversaciones, incrementa ventas y mejora la satisfacción del cliente con nuestro avanzado chatbot de IA para empresas.",
+    "solutions.card_two_pointone": "Personalización total",
+    "solutions.card_two_pointtwo": "Respuestas dinámicas",
+    "solutions.card_two_pointthree": "Integración rápida",
+    "solutions.card_two_button": "Ver solución",
+  
+    "footer.lang_label": "Idioma",
+    "footer.social_label": "Redes",
+  
+    "footer.column_one_title": "Productos",
+    "footer.column_one_item_one": "Wizzy",
+  
+    "footer.column_two_title": "Empresa",
+    "footer.column_two_item_one": "Sobre Nosotros",
+    "footer.column_two_item_two": "Misión",
+    "footer.column_two_item_three": "Marca",
+  
+    "footer.column_three_title": "Política",
+    "footer.column_three_item_one": "Términos",
+    "footer.column_three_item_two": "Privacidad",
+    "footer.column_three_item_three": "Directrices",
+    "footer.column_three_item_four": "Licencias",
+    "footer.column_three_item_five": "Información de la empresa"
+}  

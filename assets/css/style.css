@@ -16,6 +16,12 @@ body {
     height: 100%;
 }
 
+.nav-sticky {
+    background-color: rgba(13, 13, 36, 0.4);
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
 #footer {
     background-color: rgba(11, 11, 26, 0.7);
 }
