@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="stylesheet" href="./dist/output.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+        <title>WizardSolutions - Soluções Tecnologicas</title>
+    </head>
+    <body class="bg-[radial-gradient(circle,_#1d2135_0%,_#161627_50%,_#0d0e19_100%)]">
+        <div id="tsparticles"></div>
+        
+        <div class="w-full flex flex-col items-center relative z-10">
+            <!-- Navbar -->
+            <nav class="w-full flex justify-between items-center px-14 py-[20px]">
+                <img src="./assets/wizard_logo.png" alt="WizardSolutions - Logo" width="50" height="50" title="Wizard Solutions">
+
+                <div class="flex gap-10 font-medium">
+                    <a href="#" class="text-white cursor-pointer">Início</a>
+                    <a href="#about-section" class="text-white cursor-pointer">Sobre</a>
+                    <a href="#solutions-section" class="text-white cursor-pointer">Soluções</a>
+                    <a href="#" class="text-white cursor-pointer">Contato</a>
+                </div>
+            </nav>
+            
+            <main class="w-full flex flex-col items-center gap-[110px]">
+                <!-- Hero Section -->
+                <section class="max-w-[1400px] relative flex flex-col px-14">
+                    <div class="flex justify-between items-center">
+                        <!-- Left -->
+                        <div class="w-1/2 flex flex-col justify-start gap-10 text-white">
+                            <div class="flex flex-col gap-3">
+                                <span class="leading-[45px]">
+                                    <h1 class="text-[50px] font-bold">Desbloqueie</h1> 
+                                    <h1 class="text-[38px] font-semibold">A Mágia da Tecnologia</h1>
+                                </span>
+                                <p class="text-[14px]">Transformamos inovação em realidade com soluções tecnológicas poderosas e intuitivas. Experimente a magia da tecnologia com a WizardSolutions!</p>
+                            </div>
+                            
+                            <button class="py-2 px-3 self-start border border-white rounded-full">Conheça nossas soluções</button>
+                        </div>
+        
+                        <!-- Right -->
+                        <div class="w-1/2 flex justify-end">
+                            <img class="w-[500px] transform scale-x-[-1]" src="./assets/images/Wizard.png" alt="Wizard - O Mago" width="420">
+                        </div>
+                    </div>
+
+                    
+                    <a href="#about-section" class="absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 animate-bounce" title="O espetáculo ta só começando!">
+                        <img src="./assets/images/Magic Arrow.png" alt="Wizard - Próxima seção" width="30">
+                    </a>
+                </section>
+                
+                <!-- About Section -->
+                <section id="about-section" class="max-w-[1400px] w-full flex flex-col gap-10 px-14">
+                    <div class="w-full flex flex-col items-center">
+                        <img class="w-[200px] animate-float" src="./assets/images/Wizard About.png" alt="Wizard - O Mago" width="420">
+                        
+                        <h1 class="text-[30px] font-bold text-white">Tecnologia com um toque de Mágica</h1> 
+                    </div>
+                    
+                    <div class="flex justify-between gap-12">
+                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                            <img class="w-[100px]" src="./assets/images/Software_Sob_Medida.png" alt="Wizard - O Mago" width="420">
+                            
+                            <div class="flex flex-col items-center gap-10">
+                                <div class="flex flex-col gap-4 text-[#373d54]">
+                                    <p class="text-lg font-bold uppercase text-center">Softwares sob medida</p>
+                                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem, harum fugit voluptatum possimus</p>
+                                </div>
+
+                                <button class="bg-[#373d54] rounded-full px-10 py-2 text-white">
+                                    Veja mais
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                            <img class="w-[100px]" src="./assets/images/Integrações.png" alt="Wizard - O Mago" width="420">
+                            
+                            <div class="flex flex-col items-center gap-10">
+                                <div class="flex flex-col gap-4 text-[#373d54]">
+                                    <p class="text-lg font-bold uppercase text-center">Integrações</p>
+                                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem, harum fugit voluptatum possimus</p>
+                                </div>
+
+                                <button class="bg-[#373d54] rounded-full px-10 py-2 text-white">
+                                    Veja mais
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                            <img class="w-[100px]" src="./assets/images/Automações.png" alt="Wizard - O Mago" width="420">
+                            
+                            <div class="flex flex-col items-center gap-10">
+                                <div class="flex flex-col gap-4 text-[#373d54]">
+                                    <p class="text-lg font-bold uppercase text-center">Automações</p>
+                                    <p class="text-[14px] font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem, harum fugit voluptatum possimus</p>
+                                </div>
+                                
+                                <button class="bg-[#373d54] rounded-full px-10 py-2 text-white">
+                                    Veja mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- Solutions Section -->
+                <section id="solutions-section" class="w-full flex flex-col gap-10 pt-[110px]">
+                    <div class="w-full flex flex-col items-center">
+                        <h1 class="text-[30px] font-bold text-white">Soluções</h1> 
+                    </div>
+
+                    <div class="flex flex-col gap-20">
+                        <div class="flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
+                            
+                            <div class="relative max-w-[1400px] flex items-center gap-14 py-10 px-14">
+                                <img class="absolute left-5 top-[-160px]" src="./assets/images/Wizard Solution.png" alt="Wizard - O Mago" width="200">
+
+                                <div class="w-[50%]">
+                                    <div class="flex justify-center">
+                                        <img src="./assets/images/Robo.svg" alt="Wizard - Robo Wizzy" width="250">
+                                    </div>
+        
+                                    <div class="flex flex-col gap-2">
+                                        <img src="./assets/images/LogoWizzy.png" alt="Wizard - Assistente Wizzy" width="100">
+                                        <p class="text-[#373d54]">Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.</p>
+                                    </div>
+                                </div>
+        
+                                <div class="flex flex-col gap-8">
+                                    <div>
+                                        <h2 class="font-bold text-[40px] text-[#373d54]">Assistente Wizzy</h2>
+                                        <p class="text-[#373d54]">Automatize conversas, aumente vendas e satisfação dos clientes com nosso chatbot de IA avançado para empresas.</p>
+                                    </div>
+        
+                                    <ul class="flex flex-col gap-2 text-[#373d54]">
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20"> Personalização completa</li>
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20">  Respostas dinâmicas</li>
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20">  Integração rápida</li>
+                                    </ul>
+        
+                                    <button class="py-2 px-6 self-start border border-[#373d54] rounded-full text-[#373d54]">Conheça esta solução</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
+                            <div class="max-w-[1400px] flex items-center gap-14 py-10 px-14">
+                                <div class="flex flex-col gap-8">
+                                    <div>
+                                        <h2 class="font-bold text-[40px] text-[#373d54]">Assistente Wizzy</h2>
+                                        <p class="text-[#373d54]">Automatize conversas, aumente vendas e satisfação dos clientes com nosso chatbot de IA avançado para empresas.</p>
+                                    </div>
+        
+                                    <ul class="flex flex-col gap-2 text-[#373d54]">
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20"> Personalização completa</li>
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20">  Respostas dinâmicas</li>
+                                        <li class="flex items-center gap-2"><img src="./assets/images/Stars.png" alt="Wizard - Icone" width="20">  Integração rápida</li>
+                                    </ul>
+        
+                                    <button class="py-2 px-6 self-start border border-[#373d54] rounded-full text-[#373d54]">Conheça esta solução</button>
+                                </div>
+
+                                <div class="w-[50%]">
+                                    <div class="flex justify-center">
+                                        <img src="./assets/images/Robo.svg" alt="Wizard - Robo Wizzy" width="250">
+                                    </div>
+        
+                                    <div class="flex flex-col gap-2">
+                                        <img src="./assets/images/LogoWizzy.png" alt="Wizard - Assistente Wizzy" width="100">
+                                        <p class="text-[#373d54]">Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer id="footer" class="w-full flex justify-center mt-32 py-10">
+                <div class="max-w-[1400px] w-full flex gap-32 px-14">
+                    <div class="flex flex-col gap-8 text-white">
+                        <img src="./assets/wizard_logo.png" alt="WizardSolutions - Logo" width="70" title="Wizard Solutions">
+    
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-[#e0e0e7]">Idioma</h3>
+                            <div class="flex items-center border gap-16 border-[#ffffff] rounded-full text-[#ffffff] py-3 px-6">
+                                <p class="text-sm">Português (Brasil)</p>
+    
+                                <img src="./assets/images/Arrow Down.png" alt="Wizard - Icone" width="13">
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-[#e0e0e7]">Social</h3>
+                            
+                            <div class="flex gap-3">
+                                <a href="https://www.instagram.com/wizardssolutions/" target="_blank">
+                                    <img src="./assets/images/Instagram.png" alt="Wizard - Instagram" width="24">
+                                </a>
+                                <a href="https://www.linkedin.com/company/wizardsolutions-tech/" target="_blank">
+                                    <img src="./assets/images/Linkedin.png" alt="Wizard - LinkedIn" width="24">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="flex gap-28">
+                        <div class="text-white">
+                            <h3 class="text-[#e0e0e7] mb-4">Produtos</h3>
+                            <div class="flex flex-col gap-4">
+                                <a href="#">Wizzy</a>
+                            </div>
+                        </div>
+                        <div class="text-white">
+                            <h3 class="text-[#e0e0e7] mb-4">Empresa</h3>
+                            <div class="flex flex-col gap-4">
+                                <a href="#">Sobre</a>
+                                <a href="#">Missão</a>
+                                <a href="#">Marca</a>
+                            </div>
+                        </div>
+                        <div class="text-white">
+                            <h3 class="text-[#e0e0e7] mb-4">Política</h3>
+                            <div class="flex flex-col gap-4">
+                                <a href="#">Termos</a>
+                                <a href="#">Privacidade</a>
+                                <a href="#">Diretrizes</a>
+                                <a href="#">Licenças</a>
+                                <a href="#">Informações da empresa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div> 
+
+        <script>
+            tsParticles.load("tsparticles", {
+                background: { color: "#0d0d24" },
+                fullScreen: { enable: false },
+                particles: {
+                number: { value: 60, density: { enable: true, area: 800 } },
+                color: { value: "#9400ff" },
+                opacity: { value: 0.9, random: true },
+                size: { value: 2, random: true },
+                move: {
+                    direction: "top",
+                    enable: true,
+                    speed: 0.3,
+                    outModes: { default: "out" },
+                },
+                },
+            });
+        </script>
+    </body>
+</html>
