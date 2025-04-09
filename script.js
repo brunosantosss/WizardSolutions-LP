@@ -39,8 +39,17 @@ document.addEventListener("DOMContentLoaded", () => {
             .then(data => {
                 document.querySelectorAll('[data-i18n]').forEach(el => {
                     const key = el.getAttribute('data-i18n');
+                    const currentLang = document.getElementById("current-lang");
+                    
                     if (data[key])
                         el.textContent = data[key];
+
+                    if (lang === "pt") 
+                        currentLang.textContent = data['footer.lang_pt'];
+                    else if (lang === "en")
+                        currentLang.textContent = data['footer.lang_en'];
+                    else if (lang === "es")
+                        currentLang.textContent = data['footer.lang_es'];
                 });
                 localStorage.setItem('lang', lang);
             });

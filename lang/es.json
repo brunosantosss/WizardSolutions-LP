@@ -16,6 +16,7 @@
     "about.card_two_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
     "about.card_three_title": "Automatizaciones",
     "about.card_three_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi error est perspiciatis quam exercitationem.",
+    "about.card_button": "Ver más",
   
     "solutions.title": "Soluciones",
     "solutions.card_one_text": "Automatiza conversaciones, aumenta ventas y mantiene a los clientes satisfechos con nuestro chatbot de IA avanzado, diseñado para empresas.",
@@ -50,5 +51,9 @@
     "footer.column_three_item_two": "Privacidad",
     "footer.column_three_item_three": "Directrices",
     "footer.column_three_item_four": "Licencias",
-    "footer.column_three_item_five": "Información de la empresa"
+    "footer.column_three_item_five": "Información de la empresa",
+
+    "footer.lang_pt": "Portugués (Brasil)",
+    "footer.lang_en": "Inglés",
+    "footer.lang_es": "Español"
 }  
