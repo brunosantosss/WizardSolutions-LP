@@ -15,11 +15,11 @@
     <body class="bg-[radial-gradient(circle,_#1d2135_0%,_#161627_50%,_#0d0e19_100%)]">
         <div id="tsparticles"></div>
         
-        <div class="w-full flex flex-col items-center relative z-10">
+        <div class="w-full overflow-x-hidden flex flex-col items-center relative z-10">
             <!-- Navbar -->
-            <nav id="navbar" class="fixed z-50 w-full flex justify-between items-center px-14 py-5 transition-all duration-300">
+            <nav id="navbar" class="max-[450px]:hidden fixed z-50 w-full flex justify-between items-center px-14 max-[450px]:px-8 py-5 transition-all duration-300">
                 <img src="./assets/wizard_logo.png" alt="WizardSolutions - Logo" width="50" height="50" title="Wizard Solutions">
-
+                
                 <div class="flex gap-10 font-medium">
                     <a href="#" class="text-white cursor-pointer" data-i18n="nav.home">Início</a>
                     <a href="#about-section" class="text-white cursor-pointer" data-i18n="nav.about">O que fazemos</a>
@@ -28,18 +28,36 @@
                 </div>
             </nav>
             
+            <!-- Mobile navbar -->
+            <nav class="min-[450px]:hidden relative w-full z-50 px-6 py-3">
+                <div class="w-full flex justify-between items-center">
+                    <img src="./assets/wizard_logo.png" alt="WizardSolutions - Logo" width="50" height="50" title="Wizard Solutions">
+                    
+                    <img id="menu-mobile-btn" class="cursor-pointer w-[32px]" src="./assets/images/Menu Icon.png" alt="WizardSolutions - Logo" width="50" height="50" title="Wizard Solutions">
+                </div>
+
+                <div id="menu-mobile" class="absolute hidden flex flex-col gap-10 right-1 max-w-[300px] w-full h-screen px-6 py-4">
+                    <a href="#" class="text-[20px] font-medium text-white cursor-pointer" data-i18n="nav.home">Início</a>
+                    <a href="#about-section" class="text-[20px] font-medium text-white cursor-pointer" data-i18n="nav.about">O que fazemos</a>
+                    <a href="#solutions-section" class="text-[20px] font-medium text-white cursor-pointer" data-i18n="nav.services">Soluções</a>
+                    <a href="#" class="text-[20px] font-medium text-white cursor-pointer" data-i18n="nav.contact">Contato</a>
+                </div>
+            </nav>
+            
             <main class="w-full flex flex-col items-center gap-[110px] pt-[90px]">
                 <!-- Hero Section -->
-                <section class="max-w-[1400px] relative flex flex-col px-14">
-                    <div class="flex justify-between items-center">
+                <section class="max-w-[1400px] relative flex flex-col px-14 max-[450px]:px-8">
+                    <div class="w-full flex justify-between items-center">
                         <!-- Left -->
-                        <div class="w-1/2 flex flex-col justify-start gap-10 text-white">
-                            <div class="flex flex-col gap-3">
-                                <span class="leading-[45px]">
-                                    <h1 class="text-[50px] font-bold" data-i18n="hero.title1">Desbloqueie</h1> 
-                                    <h1 class="text-[38px] font-semibold" data-i18n="hero.title2">A Mágia da Tecnologia</h1>
+                        <img class="absolute z-1 top-[-90px] right-[10px] min-[450px]:hidden" src="./assets/images/Dragon Mobile.png" alt="Wizard Solutions - Dragão Bebê" width="150">
+                        <div class="w-1/2 max-[450px]:w-full flex flex-col max-[450px]:items-center justify-start gap-14 text-white">
+
+                            <div class="relative z-40 flex flex-col gap-2 max-[450px]:gap-12">
+                                <span class="leading-[45px] max-[450px]:text-center">
+                                    <h1 class="text-[50px] max-[450px]:text-[65px] font-bold" data-i18n="hero.title1">Descubra</h1> 
+                                    <h1 class="text-[38px] max-[450px]:text-[45px] font-semibold" data-i18n="hero.title2">A Mágia da Tecnologia</h1>
                                 </span>
-                                <p class="text-[14px]" data-i18n="hero.subtitle">Transformamos inovação em realidade com soluções tecnológicas poderosas e intuitivas. Experimente a magia da tecnologia com a WizardSolutions!</p>
+                                <p class="text-[14px] max-[450px]:text-[16px] max-[450px]:text-center" data-i18n="hero.subtitle">Transformamos inovação em realidade com soluções tecnológicas poderosas e intuitivas. Experimente a magia da tecnologia com a WizardSolutions!</p>
                             </div>
                             
                             <span>
@@ -50,29 +68,28 @@
                                 </a>
                             </span>
                         </div>
-        
+                        
                         <!-- Right -->
-                        <div class="w-1/2 flex justify-end">
+                        <div class="max-[450px]:hidden w-1/2 flex justify-end">
                             <img class="w-[500px] transform scale-x-[-1]" src="./assets/images/Wizard.png" alt="Wizard - O Mago" width="420">
                         </div>
                     </div>
-
-                    
-                    <a id="next-section" href="#about-section" class="absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 animate-bounce">
+                                        
+                    <a id="next-section" href="#about-section" class="max-[450px]:hidden absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 animate-bounce">
                         <img src="./assets/images/Magic Arrow.png" alt="Wizard - Próxima seção" width="30">
                     </a>
                 </section>
                 
                 <!-- About Section -->
-                <section id="about-section" class="max-w-[1400px] w-full flex flex-col gap-10 px-14">
+                <section id="about-section" class="max-w-[1400px] w-full flex flex-col gap-10 px-14 max-[450px]:px-8">
                     <div class="w-full flex flex-col items-center">
                         <img class="w-[200px] animate-float" src="./assets/images/Wizard About.png" alt="Wizard - O Mago" width="420">
                         
-                        <h1 class="text-[30px] font-bold text-white" data-i18n="about.title">Tecnologia com um toque de Mágica</h1> 
+                        <h1 class="text-[30px] font-bold max-[450px]:text-center text-white" data-i18n="about.title">Tecnologia com um toque de Mágica</h1> 
                     </div>
                     
-                    <div class="flex justify-between gap-12">
-                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                    <div class="flex max-[450px]:flex-col justify-between gap-12">
+                        <div class="w-1/3 max-[450px]:w-full flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
                             <img class="w-[100px]" src="./assets/images/Software_Sob_Medida.png" alt="Wizard - O Mago" width="420">
                             
                             <div class="flex flex-col items-center gap-10">
@@ -86,7 +103,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                        <div class="w-1/3 max-[450px]:w-full flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
                             <img class="w-[100px]" src="./assets/images/Integrações.png" alt="Wizard - O Mago" width="420">
                             
                             <div class="flex flex-col items-center gap-10">
@@ -100,7 +117,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="w-1/3 flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
+                        <div class="w-1/3 max-[450px]:w-full flex flex-col items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)] rounded-3xl px-10 py-6 shadow-[0_16px_40px_rgba(0,0,0,0.25)]">
                             <img class="w-[100px]" src="./assets/images/Automações.png" alt="Wizard - O Mago" width="420">
                             
                             <div class="flex flex-col items-center gap-10">
@@ -118,17 +135,17 @@
                 </section>
             
                 <!-- Solutions Section -->
-                <section id="solutions-section" class="w-full flex flex-col gap-10 pt-[110px]">
+                <section id="solutions-section" class="w-full flex flex-col gap-12 max-[450px]:gap-24 pt-[110px]">
                     <div class="w-full flex flex-col items-center">
                         <h1 class="text-[30px] font-bold text-white" data-i18n="solutions.title">Soluções</h1> 
                     </div>
 
                     <div class="flex flex-col gap-20">
-                        <div class="flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
-                            <div class="relative max-w-[1400px] flex items-center gap-14 py-10 px-14">
-                                <img class="absolute left-5 top-[-160px]" src="./assets/images/Wizard Solution.png" alt="Wizard - O Mago" width="200">
+                        <div class="relative flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
+                            <img class="absolute left-2 top-[-160px]" src="./assets/images/Wizard Solution.png" alt="Wizard - O Mago" width="200">
 
-                                <div class="max-w-[468px] w-[50%]">
+                            <div class="max-w-[1400px] flex max-[450px]:flex-col items-center gap-14 py-10 max-[450px]:py-6 px-14 max-[450px]:px-8">
+                                <div class="max-w-[468px] w-[50%] max-[450px]:max-w-full max-[450px]:w-full">
                                     <div class="flex justify-center">
                                         <img src="./assets/images/Robo.svg" alt="Wizard - Robo Wizzy" width="250">
                                     </div>
@@ -170,13 +187,24 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
-                            <div class="relative max-w-[1400px] flex items-center gap-14 py-10 px-14">
+                        
+                        <div class="relative flex justify-center items-center bg-[linear-gradient(to_bottom,_#edeaea,_#c9c7c7)]">
+                            <div class="max-w-[1400px] flex min-[450px]:flex-row-reverse max-[450px]:flex-col items-center gap-14 py-10 max-[450px]:py-6 px-14 max-[450px]:px-8">
+                                <div class="max-w-[468px] w-[50%] max-[450px]:max-w-full max-[450px]:w-full">
+                                    <div class="flex justify-center">
+                                        <img src="./assets/images/Robo.svg" alt="Wizard - Robo Wizzy" width="250">
+                                    </div>
+        
+                                    <div class="flex flex-col gap-2">
+                                        <img src="./assets/images/LogoWizzy.png" alt="Wizard - Assistente Wizzy" width="100">
+                                        <p class="text-[#373d54]" data-i18n="solutions.card_one_text">Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.</p>
+                                    </div>
+                                </div>
+        
                                 <div class="max-w-[764px] flex flex-col gap-8">
                                     <div>
                                         <h2 class="font-bold text-[40px] text-[#373d54]" data-i18n="solutions.card_one_title">Assistente Wizzy</h2>
-                                        <p class="text-[#373d54]" data-i18n="solutions.card_two_description">Automatize conversas, aumente vendas e satisfação dos clientes com nosso chatbot de IA avançado para empresas.</p>
+                                        <p class="text-[#373d54]" data-i18n="solutions.card_one_description">Automatize conversas, aumente vendas e satisfação dos clientes com nosso chatbot de IA avançado para empresas.</p>
                                     </div>
         
                                     <ul class="flex flex-col gap-2 text-[#373d54]">
@@ -200,18 +228,7 @@
                                         </div>
                                     </ul>
         
-                                    <button class="py-2 px-6 self-start border border-[#373d54] rounded-full text-[#373d54]" data-i18n="solutions.card_two_button">Conhecer solução</button>
-                                </div>
-
-                                <div class="max-w-[468px] w-[50%]">
-                                    <div class="flex justify-center">
-                                        <img src="./assets/images/Robo.svg" alt="Wizard - Robo Wizzy" width="250">
-                                    </div>
-        
-                                    <div class="flex flex-col gap-2">
-                                        <img src="./assets/images/LogoWizzy.png" alt="Wizard - Assistente Wizzy" width="100">
-                                        <p class="text-[#373d54]" data-i18n="solutions.card_two_text">Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.</p>
-                                    </div>
+                                    <button class="py-2 px-6 self-start border border-[#373d54] rounded-full text-[#373d54]" data-i18n="solutions.card_one_button">Conhecer solução</button>
                                 </div>
                             </div>
                         </div>
@@ -219,8 +236,8 @@
                 </section>
             </main>
 
-            <footer id="footer" class="w-full flex justify-center mt-32 py-24">
-                <div class="max-w-[1400px] w-full flex gap-32 px-14">
+            <footer id="footer" class="w-full flex justify-center mt-32 py-24 max-[450px]:py-16">
+                <div class="max-w-[1400px] w-full flex max-[450px]:flex-col gap-32 max-[450px]:gap-16 px-14 max-[450px]:px-8">
                     <div class="flex flex-col gap-5 text-white">
                         <img src="./assets/wizard_logo.png" alt="WizardSolutions - Logo" width="70" title="Wizard Solutions">
     
@@ -231,7 +248,7 @@
                                 <img src="./assets/images/Arrow Down.png" alt="Wizard - Icone" width="13">
                             </div>
 
-                            <ul id="langs-dropdown" class="w-full hidden absolute top-[85px] max-h-[130px] overflow-y-auto flex flex-col gap-1 rounded-2xl border border-[#ffffff] text-[#ffffff] bg-[#0c0c1d] transition-all duration-300">
+                            <ul id="langs-dropdown" class="max-[450px]:max-w-[280px] w-full hidden absolute top-[85px] max-h-[130px] overflow-y-auto flex flex-col gap-1 rounded-2xl border border-[#ffffff] text-[#ffffff] bg-[#0c0c1d] transition-all duration-300">
                                 <li class="dropdown-item cursor-pointer hover:bg-[#1a1a2e] transition-colors duration-200 px-4 py-2 rounded" data-value="pt" data-i18n="footer.lang_pt">Português (Brasil)</li>
                                 <li class="dropdown-item cursor-pointer hover:bg-[#1a1a2e] transition-colors duration-200 px-4 py-1 rounded" data-value="en" data-i18n="footer.lang_en">Inglês</li>
                                 <li class="dropdown-item cursor-pointer hover:bg-[#1a1a2e] transition-colors duration-200 px-4 py-2 rounded" data-value="es" data-i18n="footer.lang_es">Espanhol</li>
@@ -252,24 +269,24 @@
                         </div>
                     </div>
     
-                    <div class="max-w-[645px] w-full flex justify-between">
+                    <div class="max-w-[645px] w-full flex max-[450px]:flex-col max-[450px]:gap-5 justify-between">
                         <div class="text-white">
-                            <h3 class="text-[#e0e0e7] mb-4" data-i18n="footer.column_one_title">Produtos</h3>
-                            <div class="flex flex-col gap-4">
+                            <h3 class="text-[#e0e0e7] mb-4 max-[450px]:mb-1" data-i18n="footer.column_one_title">Produtos</h3>
+                            <div class="flex flex-col max-[450px]:gap-2">
                                 <a href="#" data-i18n="footer.column_one_item_one">Wizzy</a>
                             </div>
                         </div>
                         <div class="text-white">
-                            <h3 class="text-[#e0e0e7] mb-4" data-i18n="footer.column_two_title">Empresa</h3>
-                            <div class="flex flex-col gap-4">
+                            <h3 class="text-[#e0e0e7] mb-4 max-[450px]:mb-1" data-i18n="footer.column_two_title">Empresa</h3>
+                            <div class="flex flex-col gap-4 max-[450px]:gap-2">
                                 <a href="#" data-i18n="footer.column_two_item_one">Sobre</a>
                                 <a href="#" data-i18n="footer.column_two_item_two">Missão</a>
                                 <a href="#" data-i18n="footer.column_two_item_three">Marca</a>
                             </div>
                         </div>
                         <div class="text-white">
-                            <h3 class="text-[#e0e0e7] mb-4" data-i18n="footer.column_three_title">Política</h3>
-                            <div class="flex flex-col gap-4">
+                            <h3 class="text-[#e0e0e7] mb-4 max-[450px]:mb-1" data-i18n="footer.column_three_title">Política</h3>
+                            <div class="flex flex-col gap-4 max-[450px]:gap-2">
                                 <a href="#" data-i18n="footer.column_three_item_one">Termos</a>
                                 <a href="#" data-i18n="footer.column_three_item_two">Privacidade</a>
                                 <a href="#" data-i18n="footer.column_three_item_three">Diretrizes</a>
