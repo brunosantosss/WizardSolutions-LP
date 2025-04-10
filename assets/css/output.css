@@ -582,8 +582,16 @@ video {
   right: 0.25rem;
 }
 
+.right-\[-310px\] {
+  right: -310px;
+}
+
 .right-\[10px\] {
   right: 10px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-\[-160px\] {
@@ -618,16 +626,16 @@ video {
   margin-top: 8rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-screen {
@@ -692,6 +700,10 @@ video {
 
 .max-w-\[764px\] {
   max-width: 764px;
+}
+
+.max-w-\[1550px\] {
+  max-width: 1550px;
 }
 
 .-translate-x-1\/2 {
@@ -871,6 +883,16 @@ video {
   background-color: rgb(55 61 84 / var(--tw-bg-opacity, 1));
 }
 
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[linear-gradient\(to_bottom\2c _\#edeaea\2c _\#c9c7c7\)\] {
   background-image: linear-gradient(to bottom, #edeaea, #c9c7c7);
 }
@@ -929,11 +951,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -944,12 +961,53 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
 .pt-\[110px\] {
   padding-top: 110px;
 }
 
 .pt-\[90px\] {
   padding-top: 90px;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
+}
+
+.pb-\[28px\] {
+  padding-bottom: 28px;
+}
+
+.pb-\[32px\] {
+  padding-bottom: 32px;
+}
+
+.pb-\[64px\] {
+  padding-bottom: 64px;
+}
+
+.pb-\[72px\] {
+  padding-bottom: 72px;
+}
+
+.pb-\[84px\] {
+  padding-bottom: 84px;
 }
 
 .text-center {
@@ -1061,7 +1119,56 @@ video {
   background-color: rgb(26 26 46 / var(--tw-bg-opacity, 1));
 }
 
+@media (max-width: 860px) {
+  .max-\[860px\]\:w-full {
+    width: 100%;
+  }
+
+  .max-\[860px\]\:max-w-full {
+    max-width: 100%;
+  }
+
+  .max-\[860px\]\:max-w-\[280px\] {
+    max-width: 280px;
+  }
+
+  .max-\[860px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[860px\]\:gap-24 {
+    gap: 6rem;
+  }
+
+  .max-\[860px\]\:gap-16 {
+    gap: 4rem;
+  }
+
+  .max-\[860px\]\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .max-\[860px\]\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .max-\[860px\]\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
 @media (max-width: 450px) {
+  .max-\[450px\]\:top-\[-140px\] {
+    top: -140px;
+  }
+
+  .max-\[450px\]\:top-\[-120px\] {
+    top: -120px;
+  }
+
   .max-\[450px\]\:mb-1 {
     margin-bottom: 0.25rem;
   }
@@ -1074,12 +1181,16 @@ video {
     width: 100%;
   }
 
-  .max-\[450px\]\:max-w-full {
-    max-width: 100%;
+  .max-\[450px\]\:w-\[150px\] {
+    width: 150px;
   }
 
   .max-\[450px\]\:max-w-\[280px\] {
     max-width: 280px;
+  }
+
+  .max-\[450px\]\:max-w-full {
+    max-width: 100%;
   }
 
   .max-\[450px\]\:flex-col {
@@ -1094,36 +1205,20 @@ video {
     gap: 3rem;
   }
 
-  .max-\[450px\]\:gap-24 {
-    gap: 6rem;
-  }
-
   .max-\[450px\]\:gap-16 {
     gap: 4rem;
   }
 
-  .max-\[450px\]\:gap-10 {
-    gap: 2.5rem;
+  .max-\[450px\]\:gap-2 {
+    gap: 0.5rem;
   }
 
-  .max-\[450px\]\:gap-36 {
-    gap: 9rem;
-  }
-
-  .max-\[450px\]\:gap-20 {
-    gap: 5rem;
+  .max-\[450px\]\:gap-24 {
+    gap: 6rem;
   }
 
   .max-\[450px\]\:gap-5 {
     gap: 1.25rem;
-  }
-
-  .max-\[450px\]\:gap-1 {
-    gap: 0.25rem;
-  }
-
-  .max-\[450px\]\:gap-2 {
-    gap: 0.5rem;
   }
 
   .max-\[450px\]\:px-8 {
@@ -1131,14 +1226,14 @@ video {
     padding-right: 2rem;
   }
 
-  .max-\[450px\]\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
   .max-\[450px\]\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .max-\[450px\]\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .max-\[450px\]\:text-center {
@@ -1164,6 +1259,12 @@ video {
   }
 
   .min-\[450px\]\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 860px) {
+  .min-\[860px\]\:flex-row-reverse {
     flex-direction: row-reverse;
   }
 }

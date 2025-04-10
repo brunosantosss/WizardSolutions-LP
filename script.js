@@ -78,14 +78,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Navbar para mobiles
     const menuMobile = document.getElementById("menu-mobile");
-    const menuMobileBTN = document.getElementById("menu-mobile-btn");
+    const menuMobileBTN = document.querySelectorAll(".menu-mobile-btn");
 
-    menuMobileBTN.addEventListener('click', () => {
-        if (menuMobile.classList.contains("hidden")) {
-            menuMobile.classList.remove("hidden");
-        }
-        else {
-            menuMobile.classList.add("hidden");
-        }
-    });
+    menuMobileBTN.forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (menuMobile.classList.contains("right-[-310px]")) {
+                menuMobile.classList.remove("right-[-310px]");
+                menuMobile.classList.add("right-[0px]");
+            }
+            else {
+                menuMobile.classList.add("right-[-310px]");
+                menuMobile.classList.remove("right-[0px]");
+            }
+        });
+    });     
 });
