@@ -18,7 +18,7 @@
     "about.card_three_text": "Criamos fluxos inteligentes que executam tarefas repetitivas por você e seu negócio, economizando tempo e reduzindo erros no seu dia a dia.",
     "about.card_button": "Veja mais",
 
-    "solutions.title": "Soluções",
+    "solutions.title": "Nossas soluções",
     "solutions.card_one_text": "Automatize suas conversas, aumente suas vendas e mantenha seus clientes satisfeitos com nosso chatbot de IA avançado, projetado exclusivamente para empresas.",
     "solutions.card_one_title": "Assistente Wizzy",
     "solutions.card_one_description": "Automatize conversas, aumente vendas e satisfação dos clientes com nosso chatbot de IA avançado para empresas.",
@@ -34,6 +34,13 @@
     "solutions.card_two_pointtwo": "Respostas dinâmicas",
     "solutions.card_two_pointthree": "Integração rápida",
     "solutions.card_two_button": "Conhecer solução",
+
+    "contact.title": "Entre em contato",
+    "contact.description": "Tem uma ideia? Precisa de uma solução? Fale com a gente!",
+    "contact.input_placeholder_name": "Nome",
+    "contact.form_input_placeholder_email": "E-mail",
+    "contact.form_input_placeholder_message": "Mensagem",
+    "contact.form_input_btn": "Enviar mensagem",
 
     "footer.lang_label": "Idioma",
     "footer.social_label": "Social",

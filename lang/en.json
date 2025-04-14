@@ -18,7 +18,7 @@
     "about.card_three_text": "We build smart workflows that handle repetitive tasks for you, saving time and reducing errors in your daily operations.",
     "about.card_button": "See more",
   
-    "solutions.title": "Solutions",
+    "solutions.title": "Our solutions",
     "solutions.card_one_text": "Automate conversations, boost sales, and keep customers satisfied with our advanced AI chatbot, built for businesses.",
     "solutions.card_one_title": "Wizzy Assistant",
     "solutions.card_one_description": "Automate conversations, increase sales, and improve customer satisfaction with our advanced business AI chatbot.",
@@ -34,6 +34,13 @@
     "solutions.card_two_pointtwo": "Dynamic responses",
     "solutions.card_two_pointthree": "Fast integration",
     "solutions.card_two_button": "See solution",
+
+    "contact.title": "Get in touch",
+    "contact.description": "Got an idea? Need a solution? Talk to us!",
+    "contact.input_placeholder_name": "Name",
+    "contact.form_input_placeholder_email": "Email",
+    "contact.form_input_placeholder_message": "Message",
+    "contact.form_input_btn": "Send message", 
   
     "footer.lang_label": "Language",
     "footer.social_label": "Social",
